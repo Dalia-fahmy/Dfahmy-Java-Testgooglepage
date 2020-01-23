@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-23T12:49:54 CET" name="Google Test Suite" finished-at="2020-01-23T12:50:22 CET" duration-ms="28619">
+    <groups>
+    </groups>
+    <test started-at="2020-01-23T12:49:54 CET" name="Test" finished-at="2020-01-23T12:50:22 CET" duration-ms="28619">
+      <class name="Tests.SearchResultTest">
+        <test-method signature="ExistResult()[pri:0, instance:Tests.SearchResultTest@80169cf]" started-at="2020-01-23T12:50:14 CET" name="ExistResult" finished-at="2020-01-23T12:50:19 CET" duration-ms="4581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExistResult -->
+        <test-method signature="CheckImagesForExistingResult()[pri:0, instance:Tests.SearchResultTest@80169cf]" started-at="2020-01-23T12:50:19 CET" name="CheckImagesForExistingResult" finished-at="2020-01-23T12:50:22 CET" depends-on-methods="Tests.SearchResultTest.ExistResult" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckImagesForExistingResult -->
+      </class> <!-- Tests.SearchResultTest -->
+      <class name="Tests.HomeTest">
+        <test-method signature="UnSuccessfulSearch()[pri:1, instance:Tests.HomeTest@382db087]" started-at="2020-01-23T12:50:09 CET" name="UnSuccessfulSearch" finished-at="2020-01-23T12:50:10 CET" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnSuccessfulSearch -->
+        <test-method signature="SuccessfulSearch()[pri:0, instance:Tests.HomeTest@382db087]" started-at="2020-01-23T12:50:10 CET" name="SuccessfulSearch" finished-at="2020-01-23T12:50:12 CET" depends-on-methods="Tests.HomeTest.UnSuccessfulSearch" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulSearch -->
+      </class> <!-- Tests.HomeTest -->
+      <class name="Tests.ApplicationsTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:Tests.ApplicationsTest@b9afc07]" started-at="2020-01-23T12:49:54 CET" name="startDriver" finished-at="2020-01-23T12:50:03 CET" duration-ms="8768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="OpenGmail()[pri:0, instance:Tests.ApplicationsTest@b9afc07]" started-at="2020-01-23T12:50:03 CET" name="OpenGmail" finished-at="2020-01-23T12:50:06 CET" duration-ms="3347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGmail -->
+        <test-method signature="OpenHelpPage()[pri:0, instance:Tests.ApplicationsTest@b9afc07]" started-at="2020-01-23T12:50:06 CET" name="OpenHelpPage" finished-at="2020-01-23T12:50:09 CET" depends-on-methods="Tests.ApplicationsTest.OpenGmail" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHelpPage -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.ApplicationsTest@b9afc07]" started-at="2020-01-23T12:50:22 CET" name="stopDriver" finished-at="2020-01-23T12:50:22 CET" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.ApplicationsTest -->
+      <class name="Tests.AutoSuggestTest">
+        <test-method signature="SuccessfulAutoSearch()[pri:0, instance:Tests.AutoSuggestTest@73d4cc9e]" started-at="2020-01-23T12:50:12 CET" name="SuccessfulAutoSearch" finished-at="2020-01-23T12:50:14 CET" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulAutoSearch -->
+      </class> <!-- Tests.AutoSuggestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Google Test Suite -->
+</testng-results>
